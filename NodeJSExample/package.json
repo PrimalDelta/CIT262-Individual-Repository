@@ -13,3 +13,9 @@
   "author": "Jared Browner-Botson",
   "license": "ISC"
 }
+
+{
+  "scripts":{
+    "hello":"node helloworld.js"  
+    }
+  }
