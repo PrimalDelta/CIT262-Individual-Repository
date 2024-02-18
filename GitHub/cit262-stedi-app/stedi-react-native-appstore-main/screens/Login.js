@@ -68,10 +68,11 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
                   }
                 )
                 const sendTextResponseData = await sendTextResponse.text();
-                if(sendTextResponse.status!=200){//invalid phone number, send them to the signup page
+                if(sendTextResponse.status === 200){//invalid phone number, send them to the signup page
                   await Alert.alert("Hello John");
+                  setLoggedInState(loggedInStates.LOGGED_IN);
                 } else{
-                  setLoggedInState(loggedInStates.LOGGING_IN);
+                  await Alert.alert("Did you type your number correctly? " + phoneNumber);
                 }
               }}
             >
