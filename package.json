@@ -1,0 +1,19 @@
+{
+  "name": "cit262-individual-repository",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimalDelta/CIT262-Individual-Repository.git"
+  },
+  "author": "Jared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrimalDelta/CIT262-Individual-Repository/issues"
+  },
+  "homepage": "https://github.com/PrimalDelta/CIT262-Individual-Repository#readme"
+}
