@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "project",
   "main": "index.js",
-
+  "scripts": {
+    "test": "https://github.com/PrimalDelta/CIT262-Individual-Repository/node_modules/.bin/jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PrimalDelta/CIT262-Individual-Repository.git"
