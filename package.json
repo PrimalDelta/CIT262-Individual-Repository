@@ -4,7 +4,7 @@
   "description": "project",
   "main": "index.js",
   "scripts": {
-    "test": "https://github.com/PrimalDelta/CIT262-Individual-Repository/node_modules/.bin/jest"
+    "test": "CIT262-Individual-Repository/node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
